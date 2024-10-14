@@ -8,9 +8,9 @@ export default async function Home() {
   }
   const {data:notes} = await response.json()
   console.log(notes)
-  return (
-    <NoteCard notes={notes} />
-  );
+
+    
+
 }
 
 //wewejojeiorjeojarjoe//
